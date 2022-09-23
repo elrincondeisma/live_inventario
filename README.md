@@ -1,2 +1,2 @@
 # El Rincon de Isma
-## Template for Laravel install
+## Template for Live Inventario Streaming
