@@ -26,6 +26,7 @@ class Types extends Controller
     $type = new Type();
     $type->name = $request->name;
     $type->description = $request->description;
+    $type->icon = $request->icon;
     $type->save();
     return redirect()->route('pages-types');
   }
@@ -37,6 +38,8 @@ class Types extends Controller
     $type = Type::find($request->type_id);
     $type->name = $request->name;
     $type->description = $request->description;
+    $type->icon = $request->icon;
+
     
     $type->save();
     return redirect()->route('pages-types');

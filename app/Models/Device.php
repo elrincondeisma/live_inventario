@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Device extends Model
 {
     use HasFactory;
+    public function type(){
+        return $this->belongsTo('App\Models\Type');
+    }
 }
