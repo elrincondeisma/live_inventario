@@ -12,6 +12,7 @@ $configData = Helper::appClasses();
 <div class="card">
     <div class="table-responsive text-nowrap">
       <a href="{{ route('pages-devices-create') }}" class="btn btn-primary">Añadir nuevo dispositivo</a>
+      <a href="{{ route('pages-devices-export') }}" class="btn btn-warning">Exportar lista en excel</a>
       <table class="table">
         <thead>
           <tr>

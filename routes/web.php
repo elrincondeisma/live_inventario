@@ -64,10 +64,11 @@ $controller_path = 'App\Http\Controllers';
     Route::get('/devices', $controller_path . '\pages\Devices@index')->name('pages-devices');
     Route::get('/devices/create', $controller_path . '\pages\Devices@create')->name('pages-devices-create');
     Route::post('/devices/store', $controller_path . '\pages\Devices@store')->name('pages-devices-store');
-    Route::get('/devices/show/{type_id}', $controller_path . '\pages\Devices@show')->name('pages-devices-show');
+    Route::get('/devices/show/{device_id}', $controller_path . '\pages\Devices@show')->name('pages-devices-show');
     Route::post('/devices/update', $controller_path . '\pages\Devices@update')->name('pages-devices-update');
-    Route::get('/devices/destroy/{type_id}', $controller_path . '\pages\Devices@destroy')->name('pages-devices-destroy');
-    Route::get('/devices/switch/{type_id}', $controller_path . '\pages\Devices@switch')->name('pages-devices-switch');
+    Route::get('/devices/destroy/{device_id}', $controller_path . '\pages\Devices@destroy')->name('pages-devices-destroy');
+    Route::get('/devices/switch/{device_id}', $controller_path . '\pages\Devices@switch')->name('pages-devices-switch');
+    Route::get('/devices/export', $controller_path . '\pages\Devices@export')->name('pages-devices-export');
 
     
 });
