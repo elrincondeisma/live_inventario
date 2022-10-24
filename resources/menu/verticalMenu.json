@@ -4,43 +4,64 @@
       "url": "/",
       "name": "Home",
       "icon": "menu-icon tf-icons bx bx-home-circle",
-      "slug": "pages-home"
+      "slug": "pages-home",
+      "rol": "admin"
     },
     {
       "url": "/devices",
       "name": "Equipos",
       "icon": "menu-icon tf-icons bx bxs-devices",
-      "slug": "pages-devices"
+      "slug": "pages-devices",
+      "rol": "admin"
     },
     {
       "url": "/sos",
       "name": "Sistemas operativos",
       "icon": "menu-icon tf-icons bx bx-chip",
-      "slug": "pages-sos"
+      "slug": "pages-sos",
+      "rol": "admin"
     },
     {
       "url": "/types",
       "name": "Tipos",
       "icon": "menu-icon tf-icons bx bxs-printer",
-      "slug": "pages-types"
+      "slug": "pages-types",
+      "rol": "admin"
     },
     {
       "url": "/reports",
       "name": "Reportes",
       "icon": "menu-icon tf-icons bx bxs-report",
-      "slug": "pages-reports"
+      "slug": "pages-reports",
+      "rol": "admin"
     },
     {
       "url": "/backups",
       "name": "Backups",
       "icon": "menu-icon tf-icons bx bxs-file-archive",
-      "slug": "pages-backups"
+      "slug": "pages-backups",
+      "rol": "admin"
     },
     {
       "url": "/users",
       "name": "Usuarios",
       "icon": "menu-icon tf-icons bx bxs-group",
-      "slug": "pages-users"
+      "slug": "pages-users",
+      "rol": "admin"
+    },
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "pages-home",
+      "rol": "user"
+    },
+    {
+      "url": "/devices",
+      "name": "Equipos",
+      "icon": "menu-icon tf-icons bx bxs-devices",
+      "slug": "pages-devices",
+      "rol": "user"
     }
   ]
 }
